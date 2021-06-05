@@ -1,0 +1,25 @@
+@media only screen and (max-width:1000px){
+
+    body{
+        height: 100vh;
+        background-image: url(./img/bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        display: none;
+    }
+
+    .sorry{
+        font-size: 35px;
+        text-align: center;
+        color: red;
+        font-weight: bold;
+    }
+
+}
